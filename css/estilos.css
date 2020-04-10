@@ -1,0 +1,394 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p{
+    margin: 5px 0px 0px 10px;
+    font-size: 25px; 
+    padding: 0%;
+
+    font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    padding: 10px;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main .titulo{
+    font-size: 60px;
+    text-align: center;
+   text-decoration: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin: 0px 0px 0px 0px;
+}
+
+header .logo img {
+  width: 200px;
+  height: auto;
+  position: relative;
+  float: left;
+  padding: 25px;
+  margin: 40px 60px;
+  margin-left: 0px;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  max-height: 600px;
+
+  background-size: cover;
+  background: fixed;
+  position: relative;
+  background-position: 0%;
+}
+
+header img {
+  width: 100%;
+
+  height: 600px;
+  max-height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0;
+  position: relative;
+}
+header .carousel{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 100%;
+
+    grid-area: "carrucel";
+    max-height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0;
+    position: relative;
+}
+.carousel {
+  width: 100%;
+  background-color: aqua;
+  height: 600px;
+  max-height: 600px;
+ 
+}
+.carousel-inner {
+  width: 100%;
+  background-color: aqua;
+  height: 600px;
+  max-height: 600px;
+  
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  text-align: center;
+  padding: 0px;
+  margin: 50px 0px 0px;
+}
+section{
+    margin: 150px 0px;
+    padding: 5px;
+}
+.information {
+ 
+  padding: 25px;
+  margin: 150px 0px;
+}
+.information img{
+    width: 400px;
+    height: auto;
+    margin: 10px 30px ;
+    position: relative;
+    float: left;
+}
+
+.information p{
+    text-align: center;
+    text-overflow: ellipsis;
+    
+}
+/* for,mulario*/
+section .container {
+    margin: 150px 0px;
+}
+section  .formulario{
+    display :grid;
+    background-color:aqua;
+    width: 100%;
+    border-radius: 50px;
+    grid-template-columns: auto 1fr;
+    grid-area: "registro descripcion";
+
+}
+section .registro{
+    display: grid;
+    margin: 10px;
+
+    grid-area: "registro";
+    
+}
+section form {
+ 
+    text-align: center;
+    min-width: 450px;
+    width: 500px;
+    height: 650px;
+    background-color: rgb(5, 231, 231);
+    position: relative;
+    border-radius: 20px ;
+    float: left;
+    margin: 10px 0px;
+    
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+section form h2{
+    color: #ffffff;
+    font-size: 75px;
+
+}
+section input{
+    text-align: center;
+    width: 380px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+border: none;
+border-radius: 25px;
+
+}
+section h4{
+    font-size: 25px;
+    color: aliceblue;
+}
+section .botones button{
+    width: 200px;
+    background-color:rgb(207, 231, 216);
+    margin: 0px 0px 25px;
+    padding:  5px;
+    font-size: 20px;
+    border-radius: 0px 25px 25px 0px ;
+    border: none;
+    margin: 0px 0px 25px;
+}
+section .botones button:hover{
+    background-color: aqua;
+}
+section .botones .comprar{
+    width: 200px;
+    background-color:rgb(207, 231, 216);
+    margin: 0px 0px 25px;
+    padding:  5px;
+    font-size: 20px; 
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+}
+section .botones .comprar:hover{
+    background-color: aqua;
+}
+section .perfil button{
+    width: 400px;
+    background-color: rgb(27, 182, 221) ;
+    margin: 0px 0px 15px 0px;
+    padding:  5px;
+    border-radius: 50 px;
+    font-size: 20px;
+    box-shadow: black 2, 25px 25px;
+}
+section form a {
+    margin: 25px 35px;
+    padding: 15px;
+    height: 15px;
+    width: 200px;
+    font-size: 25px;
+    background-color: #34FF7F;
+    border-radius: 50px;
+    color: #ffffff;
+ }
+
+.information-description{
+    text-align: justify;
+width: 500px;
+    height: 700px;
+    margin-left: 10px  ;
+    border-radius: 25px;
+    display: grid;
+    grid-area: "descripcion";
+}
+section  h3{
+    color: rgb(0, 0, 0), 145, 126;
+}
+.information-description img{
+    width: 300px;
+    height: 450;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0px 40px 100px;
+    padding: 10px;
+}
+
+.information-description p{
+    margin: 5px 0px 0px 10px;
+    font-size: 25px; 
+    padding: 0%;
+
+    font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* que hacemos? */
+.information2{ 
+  
+  display: grid;
+
+ grid-template-columns:  1fr 1fr;
+  grid-area: " img info ";
+}
+.information2 h2{
+    color: #000000;
+    font-size: 50px;
+    width: 100%;
+}
+
+.information2 .info  {
+    display: grid;
+    display: block;
+    float: right;
+    position: relative;
+    grid-area: "info";
+  text-align: left;
+  font-size: 25px;
+ font-family: ' Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+    height: 500px;
+    margin: 0px 15px;
+    width: 1fr;
+
+    
+}
+
+.information2 .info h2{
+ margin: 1px 0px 50px;
+ 
+
+}
+.information2 span{
+    display: block;
+    color: #ffffff;
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    text-align: center;
+}
+.information2 img{
+    display: grid;
+    grid-area: "img" ;
+    width: 550px;
+    padding: 0px;
+    margin: 150px 60px 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.contactanos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: "contactanos contactos";
+    margin: 50px 0px;
+
+}
+.contactanos h2{
+    display: grid;
+    display: block;
+    grid-area: "contactanos";
+    color: black;
+ margin: 50px 0px;
+ padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+   
+}
+
+.contactos{
+    padding: 25px;
+    margin: 0;
+    font-size: 25px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+footer{
+    background-color: rgba(95, 95, 95, 0.801);
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+} 
+footer h2,h4,a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 2px 0px;
+}
+footer h2 {
+    margin: 10px;
+    padding: 10px;
+}
+ 
+/*media*/
+
+@media screen and (max-width :1200px){
+    .carrucel .grid-carrucel{
+        max-width: 100%;
+        max-height: 600px;
+    }
+} 
+@media screen and (max-width :1000px){
+    .carrucel .grid-carrucel{
+        max-width: 100%;
+        max-height: 500px;
+    }
+} 
+@media screen and (max-width :700px){
+    .carrucel .grid-carrucel{
+        max-width: 100%;
+        max-height: 400px;
+    }
+} 
+
+
+/*media formuilario*/
+@media screen and (max-width: 1200px){
+    section form {
+        background-color: #ffffff;
+    }
+}
+@media screen and (max-width: 800px){
+    section form {
+        grid-template-columns: 1fr;
+        background-color: #b10c0c;
+    }
+}
+@media screen and (max-width: 400px){
+    section form {
+    
+        background-color: #610cb1;
+    }
+}
+
+
