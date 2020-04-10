@@ -1,210 +1,243 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-p{
-    margin: 5px 0px 0px 10px;
-    font-size: 25px; 
-    padding: 0%;
 
+p {
+    margin: 5px 0px 0px 10px;
+    font-size: 25px;
+    padding: 0%;
     font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #000000;
     padding: 10px;
 }
+
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-main .titulo{
+main .titulo {
     font-size: 60px;
     text-align: center;
-   text-decoration: solid;
+    text-decoration: solid;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     margin: 0px 0px 0px 0px;
 }
 
-header .logo img {
-  width: 200px;
-  height: auto;
-  position: relative;
-  float: left;
-  padding: 25px;
-  margin: 40px 60px;
-  margin-left: 0px;
-  background-size: cover;
-  background-attachment: scroll;
-}
+
+/*--------------header carrucel -----------*/
 
 header {
-  width: 100%;
-  height: 600px;
-  max-height: 600px;
-
-  background-size: cover;
-  background: fixed;
-  position: relative;
-  background-position: 0%;
-}
-
-header img {
-  width: 100%;
-
-  height: 600px;
-  max-height: 600px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 0;
-  position: relative;
-}
-header .carousel{
-    height: 600px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-areas: "img ""slider";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: none;
+    height: 500px;
+    max-height: 800px;
+}
 
-    grid-area: "carrucel";
-    max-height: 600px;
-    background-size: cover;
-    background-attachment: fixed;
+
+/*navbar*/
+
+header .navbar {
+    background-color: rgba(5, 170, 182, 0.514);
+    display: grid;
+    grid-area: img;
+    max-height: 70px;
+    text-align: center;
+    justify-items: center
+}
+
+
+/*img logo*/
+
+header .navbar img {
+    height: auto;
+    display: inline-block;
+    width: 120px;
+    margin-left: 20px
+}
+
+
+/*sider*/
+
+header .carrucel .slide {
+    height: 500px;
+    display: grid;
+    grid-area: slider;
+    max-height: 500px;
     background-position: 0;
+    background-attachment: fixed;
+    background-size: cover;
     position: relative;
 }
-.carousel {
-  width: 100%;
-  background-color: aqua;
-  height: 600px;
-  max-height: 600px;
- 
+
+header .carrucel .slide .carousel-inner {
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    background-position: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
 }
-.carousel-inner {
-  width: 100%;
-  background-color: aqua;
-  height: 600px;
-  max-height: 600px;
-  
+
+
+/*next- prev */
+
+header .carousel .carousel-control-prev {
+    max-width: 50px;
 }
+
+header .carousel .carousel-control-next {
+    max-width: 50px;
+}
+
+
+/*next-prev hover*/
+
+header .carousel .carousel-control-next:hover {
+    background-color: rgba(5, 170, 182, 0.514);
+}
+
+header .carousel .carousel-control-prev:hover {
+    background-color: rgba(5, 170, 182, 0.514);
+}
+
+
+/*wave */
 
 .wave {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-main {
-  text-align: center;
-  padding: 0px;
-  margin: 50px 0px 0px;
-}
-section{
+
+/*---------------information 1-----------*/
+
+section {
     margin: 150px 0px;
     padding: 5px;
 }
+
 .information {
- 
-  padding: 25px;
-  margin: 150px 0px;
+    padding: 25px;
+    margin: 150px 0px;
 }
-.information img{
+
+.information img {
     width: 400px;
     height: auto;
-    margin: 10px 30px ;
+    margin: 10px 30px;
     position: relative;
     float: left;
 }
 
-.information p{
+.information p {
     text-align: center;
     text-overflow: ellipsis;
-    
 }
-/* for,mulario*/
+
+
+/*------------------ secction formulario-----------*/
+
 section .container {
     margin: 150px 0px;
 }
-section  .formulario{
-    display :grid;
-    background-color:aqua;
+
+section .formulario {
+    display: grid;
+    background-color: rgb(22, 177, 204);
     width: 100%;
     border-radius: 50px;
-    grid-template-columns: auto 1fr;
-    grid-area: "registro descripcion";
-
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "registro descripcion";
 }
-section .registro{
+
+
+/*formulario*/
+
+section .registro {
     display: grid;
     margin: 10px;
-
-    grid-area: "registro";
-    
+    grid-area: registro;
 }
+
 section form {
- 
     text-align: center;
     min-width: 450px;
     width: 500px;
     height: 650px;
-    background-color: rgb(5, 231, 231);
     position: relative;
-    border-radius: 20px ;
+    border-radius: 20px;
     float: left;
     margin: 10px 0px;
-    
     border-radius: 10px;
     padding: 10px 0px;
 }
-section form h2{
+
+section form h2 {
     color: #ffffff;
     font-size: 75px;
-
 }
-section input{
+
+section input {
     text-align: center;
     width: 380px;
     height: 50px;
     margin: 10px;
     padding: 15px;
-border: none;
-border-radius: 25px;
-
+    border: none;
+    border-radius: 25px;
 }
-section h4{
+
+section h4 {
     font-size: 25px;
     color: aliceblue;
 }
-section .botones button{
+
+section .botones button {
     width: 200px;
-    background-color:rgb(207, 231, 216);
+    background-color: rgb(207, 231, 216);
     margin: 0px 0px 25px;
-    padding:  5px;
+    padding: 5px;
     font-size: 20px;
-    border-radius: 0px 25px 25px 0px ;
+    border-radius: 0px 25px 25px 0px;
     border: none;
     margin: 0px 0px 25px;
 }
-section .botones button:hover{
+
+section .botones button:hover {
     background-color: aqua;
 }
-section .botones .comprar{
+
+section .botones .comprar {
     width: 200px;
-    background-color:rgb(207, 231, 216);
+    background-color: rgb(207, 231, 216);
     margin: 0px 0px 25px;
-    padding:  5px;
-    font-size: 20px; 
+    padding: 5px;
+    font-size: 20px;
     border: none;
     border-radius: 25px 0px 0px 25px;
 }
-section .botones .comprar:hover{
+
+section .botones .comprar:hover {
     background-color: aqua;
 }
-section .perfil button{
+
+section .perfil button {
     width: 400px;
-    background-color: rgb(27, 182, 221) ;
+    background-color: rgb(9, 92, 112);
     margin: 0px 0px 15px 0px;
-    padding:  5px;
-    border-radius: 50 px;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
     font-size: 20px;
     box-shadow: black 2, 25px 25px;
 }
+
 section form a {
     margin: 25px 35px;
     padding: 15px;
@@ -214,87 +247,103 @@ section form a {
     background-color: #34FF7F;
     border-radius: 50px;
     color: #ffffff;
- }
+}
 
-.information-description{
+
+/*informacion de registro*/
+
+.information-description {
     text-align: justify;
-width: 500px;
-    height: 700px;
-    margin-left: 10px  ;
+    width: 500px;
+    height: 750px;
+    margin-left: 10px;
     border-radius: 25px;
     display: grid;
-    grid-area: "descripcion";
-}
-section  h3{
-    color: rgb(0, 0, 0), 145, 126;
-}
-.information-description img{
-    width: 300px;
-    height: 450;
-    align-items: center;
-    text-align: center;
-    margin: 25px 0px 40px 100px;
-    padding: 10px;
+    grid-area: descripcion;
+    grid-auto-columns: none;
+    grid-template-rows: 350px 400px;
+    grid-template-areas: "img" "info";
 }
 
-.information-description p{
+.information-description p {
     margin: 5px 0px 0px 10px;
-    font-size: 25px; 
+    font-size: 25px;
     padding: 0%;
-
+    display: grid;
+    grid-area: info;
     font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
     padding: 10px;
 }
 
-/* que hacemos? */
-.information2{ 
-  
-  display: grid;
 
- grid-template-columns:  1fr 1fr;
-  grid-area: " img info ";
+/* img*/
+
+.information-description img {
+    width: 300px;
+    height: 400px;
+    display: grid;
+    grid-area: img;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 30px 90px;
+    padding: 10px;
 }
-.information2 h2{
+
+
+/* ------------secction info 2 --------------- */
+
+.information2 {
+    height: 800px;
+    display: grid;
+    grid-template-rows: 120px 1fr;
+    grid-template-areas: " t1 " "infoimg";
+}
+
+section .t1 .infoimg {
+    display: grid;
+    grid-area: infoimg;
+    grid-template-areas: "info img";
+    grid-template-columns: 50% 50%;
+}
+
+.information2 h2 {
+    width: 120px;
     color: #000000;
     font-size: 50px;
     width: 100%;
+    display: grid;
+    grid-area: t1;
 }
 
-.information2 .info  {
-    display: grid;
+.information2 .info {
     display: block;
     float: right;
+    display: grid;
+    grid-area: info;
     position: relative;
-    grid-area: "info";
-  text-align: left;
-  font-size: 25px;
- font-family: ' Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    font-family: ' Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 25px;
     height: 500px;
-    margin: 0px 15px;
-    width: 1fr;
-
-    
+    margin: 25px 15px;
+    width: 600px;
 }
 
-.information2 .info h2{
- margin: 1px 0px 50px;
- 
-
-}
-.information2 span{
+.information2 span {
     display: block;
     color: #ffffff;
     background-color: aqua;
     width: 40px;
     height: 40px;
-    border-radius: 50% ;
+    border-radius: 50%;
     text-align: center;
 }
-.information2 img{
+
+.information2 img {
     display: grid;
-    grid-area: "img" ;
+    grid-area: img;
     width: 550px;
     padding: 0px;
     margin: 150px 60px 50px;
@@ -302,93 +351,129 @@ section  h3{
     align-items: center;
 }
 
+section .info3 {
+    height: 500px;
+    display: grid;
+    grid-template-rows: 150px 350px;
+    grid-template-areas: "titulo" "inf";
+}
 
-.contactanos{
+
+/*------------secction info 3 ----------*/
+
+section .info3 h2 {
+    display: grid;
+    grid-area: titulo;
+    margin: 5px;
+    padding: 10px;
+}
+
+section .info3 p {
+    display: grid;
+    grid-area: inf;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 35px;
+    padding: 10px;
+}
+
+
+/*---------section info 4-------*/
+
+.contactanos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-area: "contactanos contactos";
+    grid-template-areas: "contactanos contactos";
     margin: 50px 0px;
-
 }
-.contactanos h2{
+
+.contactanos h2 {
     display: grid;
     display: block;
-    grid-area: "contactanos";
+    grid-area: contactanos;
     color: black;
- margin: 50px 0px;
- padding: 30px;
+    margin: 50px 0px;
+    padding: 30px;
     text-align: center;
     font-size: 60px;
-    font-family:  'Arial Narrow Bold', sans-serif;
-   
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
-.contactos{
+.contactos {
     padding: 25px;
     margin: 0;
+    display: grid;
+    grid-area: contactos;
     font-size: 25px;
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
-footer{
+/*-----------------footer---------------*/
+
+footer {
     background-color: rgba(95, 95, 95, 0.801);
     color: #ffffff;
     width: 100%;
     height: 100px;
     text-align: center;
-} 
-footer h2,h4,a{
+}
 
+footer h2,
+h4,
+a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin: 2px 0px;
 }
+
 footer h2 {
     margin: 10px;
     padding: 10px;
 }
- 
-/*media*/
 
-@media screen and (max-width :1200px){
-    .carrucel .grid-carrucel{
+
+/*media query section info 1 a 1200px*/
+
+@media screen and (max-width :1200px) {
+    .carrucel .grid-carrucel {
         max-width: 100%;
         max-height: 600px;
     }
-} 
-@media screen and (max-width :1000px){
-    .carrucel .grid-carrucel{
+}
+
+@media screen and (max-width :1000px) {
+    .carrucel .grid-carrucel {
         max-width: 100%;
         max-height: 500px;
     }
-} 
-@media screen and (max-width :700px){
-    .carrucel .grid-carrucel{
+}
+
+@media screen and (max-width :700px) {
+    .carrucel .grid-carrucel {
         max-width: 100%;
         max-height: 400px;
     }
-} 
+}
 
 
 /*media formuilario*/
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 1200px) {
     section form {
         background-color: #ffffff;
     }
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
     section form {
         grid-template-columns: 1fr;
         background-color: #b10c0c;
     }
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 400px) {
     section form {
-    
         background-color: #610cb1;
     }
 }
-
-
