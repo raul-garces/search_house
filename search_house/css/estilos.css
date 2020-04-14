@@ -1,0 +1,2138 @@
+                                    * {
+                                        margin: 0px;
+                                        padding: 0px;
+                                    }
+                                    
+                                    p {
+                                        margin: 5px 0px 0px 10px;
+                                        font-size: 25px;
+                                        padding: 0%;
+                                        font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        color: #000000;
+                                        padding: 10px;
+                                    }
+                                    
+                                    body {
+                                        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                                    }
+                                    
+                                    main .titulo {
+                                        font-size: 60px;
+                                        text-align: center;
+                                        text-decoration: solid;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        margin: 0px 0px 0px 0px;
+                                    }
+                                    /*--------------header carrucel -----------*/
+                                    
+                                    header {
+                                        width: 100%;
+                                        max-height: 700px;
+                                    }
+                                    /*sider*/
+                                    
+                                    header .carrucel .slide {
+                                        height: 670px;
+                                        display: grid;
+                                        grid-area: slider;
+                                    }
+                                    
+                                    header .carrucel .slide .carousel-inner {
+                                        width: 100%;
+                                        height: 660px;
+                                        max-height: 670px;
+                                    }
+                                    
+                                    header .carrucel .slide .carousel-inner img {
+                                        height: 670px;
+                                    }
+                                    /*next- prev */
+                                    
+                                    header .carousel-indicators li {
+                                        background-color: rgba(7, 170, 182, 0.678);
+                                        border-radius: 50%;
+                                        height: 30px;
+                                    }
+                                    
+                                    header .carousel .carousel-control-prev {
+                                        max-width: 50px;
+                                    }
+                                    
+                                    header .carousel .carousel-control-next {
+                                        max-width: 50px;
+                                    }
+                                    /*next-prev hover*/
+                                    
+                                    header .carousel .carousel-control-next:hover {
+                                        background-color: rgba(5, 170, 182, 0.514);
+                                    }
+                                    
+                                    header .carousel .carousel-control-prev:hover {
+                                        background-color: rgba(5, 170, 182, 0.514);
+                                    }
+                                    /*wave */
+                                    
+                                    .wave {
+                                        position: absolute;
+                                        bottom: 0;
+                                        width: 100%;
+                                    }
+                                    /*---------------information 1-----------*/
+                                    
+                                    main section {
+                                        margin: 150px 0px;
+                                        padding: 5px;
+                                    }
+                                    
+                                    section .information {
+                                        padding: 25px;
+                                        margin: 150px 0px;
+                                    }
+                                    /*img logo*/
+                                    
+                                    main .logoq {
+                                        height: 400px;
+                                    }
+                                    
+                                    main section .logo {
+                                        height: 400px;
+                                        display: grid;
+                                        grid-template-rows: 200px 200px;
+                                        grid-template-areas: "logo"" texto";
+                                    }
+                                    
+                                    main section .logo img {
+                                        height: auto;
+                                        text-align: center;
+                                        display: grid;
+                                        grid-area: logo;
+                                        width: 400px;
+                                        margin: 0px 350px;
+                                    }
+                                    
+                                    main section .logo h1 {
+                                        display: grid;
+                                        font-size: 60px;
+                                        grid-area: texto;
+                                        text-align: center;
+                                        color: #000000;
+                                    }
+                                    /*----------------section renegado--------*/
+                                    
+                                    main .renegado {
+                                        height: 600px;
+                                        display: grid;
+                                        grid-template-rows: none;
+                                        grid-template-columns: 1fr 1fr;
+                                        grid-template-areas: "img info";
+                                    }
+                                    
+                                    .renegado .img1 {
+                                        display: grid;
+                                        grid-area: img;
+                                        margin: 10px 30px;
+                                    }
+                                    
+                                    .renegado .img1 img {
+                                        width: 500px;
+                                    }
+                                    
+                                    section .information {
+                                        display: grid;
+                                        grid-area: info;
+                                    }
+                                    
+                                    section .information p {
+                                        font-size: 25px;
+                                    }
+                                    /*------------------ secction formulario-----------*/
+                                    
+                                    section .container {
+                                        margin: 150px 0px;
+                                    }
+                                    
+                                    section .formulario {
+                                        display: grid;
+                                        background-color: rgb(22, 177, 204);
+                                        width: 100%;
+                                        border-radius: 50px;
+                                        grid-template-columns: 1fr 1fr;
+                                        grid-template-areas: "registro descripcion";
+                                    }
+                                    /*formulario*/
+                                    
+                                    section .registro {
+                                        display: grid;
+                                        margin: 10px;
+                                        grid-area: registro;
+                                    }
+                                    
+                                    section form {
+                                        text-align: center;
+                                        width: 500px;
+                                        height: 650px;
+                                        position: relative;
+                                        border-radius: 20px;
+                                        float: left;
+                                        margin: 10px 0px;
+                                        border-radius: 10px;
+                                        padding: 10px 0px;
+                                    }
+                                    
+                                    section form h2 {
+                                        color: #ffffff;
+                                        font-size: 75px;
+                                    }
+                                    
+                                    section input {
+                                        text-align: center;
+                                        width: 380px;
+                                        height: 50px;
+                                        margin: 10px;
+                                        padding: 5px;
+                                        border: none;
+                                        font-size: 18px;
+                                        border-radius: 25px;
+                                    }
+                                    
+                                    section h4 {
+                                        font-size: 25px;
+                                        color: aliceblue;
+                                    }
+                                    
+                                    section .botones button {
+                                        width: 200px;
+                                        background-color: rgb(207, 231, 216);
+                                        margin: 0px 0px 25px;
+                                        padding: 5px;
+                                        font-size: 20px;
+                                        border-radius: 0px 25px 25px 0px;
+                                        border: none;
+                                        margin: 0px 0px 25px;
+                                    }
+                                    
+                                    section .botones button:hover {
+                                        background-color: aqua;
+                                    }
+                                    
+                                    section .botones .comprar {
+                                        width: 200px;
+                                        background-color: rgb(207, 231, 216);
+                                        margin: 0px 0px 25px;
+                                        padding: 5px;
+                                        font-size: 20px;
+                                        border: none;
+                                        border-radius: 25px 0px 0px 25px;
+                                    }
+                                    
+                                    section .botones .comprar:hover {
+                                        background-color: aqua;
+                                    }
+                                    
+                                    section .perfil button {
+                                        width: 410px;
+                                        background-color: rgb(9, 92, 112);
+                                        margin: 0px 0px 15px 0px;
+                                        padding: 5px;
+                                        height: 65px;
+                                        font-family: Georgia, 'Times New Roman', Times, serif;
+                                        border: none;
+                                        color: #ffffff;
+                                        border-radius: 50px;
+                                        font-size: 30px;
+                                        box-shadow: black 2, 25px 25px;
+                                    }
+                                    
+                                    section form a {
+                                        margin: 25px 35px;
+                                        padding: 15px;
+                                        height: 15px;
+                                        width: 200px;
+                                        font-size: 25px;
+                                        background-color: #34FF7F;
+                                        border-radius: 50px;
+                                        color: #ffffff;
+                                    }
+                                    /*informacion de registro*/
+                                    
+                                    .information-description {
+                                        text-align: justify;
+                                        width: 500px;
+                                        height: 750px;
+                                        margin-left: 10px;
+                                        border-radius: 25px;
+                                        display: grid;
+                                        grid-area: descripcion;
+                                        grid-auto-columns: none;
+                                        grid-template-rows: 350px 400px;
+                                        grid-template-areas: "img" "info";
+                                    }
+                                    
+                                    .information-description p {
+                                        margin: 5px 0px 0px 10px;
+                                        font-size: 25px;
+                                        padding: 0%;
+                                        display: grid;
+                                        grid-area: info;
+                                        font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        color: #ffffff;
+                                        padding: 10px;
+                                    }
+                                    /* img*/
+                                    
+                                    .information-description img {
+                                        width: 300px;
+                                        height: 400px;
+                                        display: grid;
+                                        grid-area: img;
+                                        align-items: center;
+                                        text-align: center;
+                                        margin: 10px 0px 30px 90px;
+                                        padding: 10px;
+                                    }
+                                    /* ------------secction info 2 --------------- */
+                                    
+                                    .information2 {
+                                        height: 800px;
+                                        display: grid;
+                                        grid-template-rows: 120px 1fr;
+                                        grid-template-areas: " t1 " "infoimg";
+                                    }
+                                    
+                                    section .t1 .infoimg {
+                                        display: grid;
+                                        grid-area: infoimg;
+                                        grid-template-areas: "info img";
+                                        grid-template-columns: 50% 50%;
+                                    }
+                                    
+                                    .information2 h2 {
+                                        width: 120px;
+                                        color: #000000;
+                                        font-size: 50px;
+                                        width: 100%;
+                                        display: grid;
+                                        grid-area: t1;
+                                    }
+                                    
+                                    .information2 .info {
+                                        display: block;
+                                        float: right;
+                                        display: grid;
+                                        grid-area: info;
+                                        position: relative;
+                                        text-align: left;
+                                        height: 500px;
+                                        margin: 25px 15px;
+                                        width: 600px;
+                                    }
+                                    
+                                    .information2 .info h3 {
+                                        font-size: 25px;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                                    }
+                                    
+                                    .information2 span {
+                                        display: block;
+                                        color: #ffffff;
+                                        background-color: aqua;
+                                        width: 40px;
+                                        text-align: center;
+                                        padding: 7px;
+                                        font-size: 25px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                    }
+                                    
+                                    .information2 img {
+                                        display: grid;
+                                        grid-area: img;
+                                        width: 450px;
+                                        padding: 0px;
+                                        margin: 150px 60px 50px;
+                                        text-align: center;
+                                        align-items: center;
+                                    }
+                                    /*------------secction info 3 ----------*/
+                                    
+                                    section .info3 {
+                                        height: 500px;
+                                        display: grid;
+                                        grid-template-rows: 150px 350px;
+                                        grid-template-areas: "titulo" "inf";
+                                    }
+                                    
+                                    section .info3 h2 {
+                                        display: grid;
+                                        grid-area: titulo;
+                                        margin: 5px;
+                                        padding: 10px;
+                                    }
+                                    
+                                    section .info3 p {
+                                        display: grid;
+                                        grid-area: inf;
+                                        font-size: 25px;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        margin: 35px;
+                                        padding: 10px;
+                                    }
+                                    /*---------section info 4-------*/
+                                    
+                                    .contactanos {
+                                        display: grid;
+                                        grid-template-columns: 1fr 1fr;
+                                        grid-template-areas: "contactanos contactos";
+                                        margin: 50px 0px;
+                                    }
+                                    
+                                    .contactanos .contactano h2 {
+                                        display: grid;
+                                        display: block;
+                                        grid-area: contactanos;
+                                        color: black;
+                                        margin: 50px 0px;
+                                        padding: 30px;
+                                        text-align: center;
+                                        font-size: 60px;
+                                        font-family: 'Arial Narrow Bold', sans-serif;
+                                    }
+                                    
+                                    .contactos {
+                                        padding: 25px;
+                                        margin: 0;
+                                        display: grid;
+                                        grid-area: contactos;
+                                        font-size: 25px;
+                                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                    }
+                                    
+                                    .contactos a {
+                                        text-decoration: none;
+                                        color: rgb(0, 128, 145);
+                                    }
+                                    /*-----------------footer---------------*/
+                                    
+                                    footer {
+                                        background-color: rgba(20, 20, 20, 0.986);
+                                        color: #ffffff;
+                                        width: 100%;
+                                        padding: 10px;
+                                        height: 100px;
+                                        margin: 10px 0px 0px 0px;
+                                        text-align: center;
+                                    }
+                                    
+                                    footer h4 {
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        font-size: 20px;
+                                        margin: 2px 0px;
+                                    }
+                                    
+                                    footer h2 {
+                                        font-size: 18px;
+                                        margin: 10px;
+                                        padding: 10px;
+                                    }
+                                    
+                                    footer a {
+                                        color: aqua;
+                                        margin: 10px;
+                                        font-size: 25px;
+                                        padding: 10px;
+                                    }
+                                    /*--------------------media query ---------------------*/
+                                    /*media query section info 1 a 1200px*/
+                                    
+                                    @media screen and (max-width :1200px) {
+                                        header {
+                                            width: 100%;
+                                            height: 660px;
+                                            max-height: 660px;
+                                        }
+                                        /*sider*/
+                                        header .carrucel .slide {
+                                            max-height: 660px;
+                                        }
+                                        header .carrucel .slide .carousel-inner {
+                                            max-height: 660px;
+                                        }
+                                        header .carrucel .slide .carousel-inner img {
+                                            height: 660px;
+                                        }
+                                        /*next- prev */
+                                        header .carousel .carousel-control-prev {
+                                            max-width: 50px;
+                                            height: 660px;
+                                        }
+                                        header .carousel .carousel-control-next {
+                                            max-width: 50px;
+                                            height: 660px;
+                                        }
+                                        /*next-prev hover*/
+                                        header .carousel .carousel-control-next:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 660px;
+                                        }
+                                        header .carousel .carousel-control-prev:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 660px;
+                                        }
+                                        /*wave */
+                                        .wave {
+                                            position: absolute;
+                                            bottom: 0;
+                                            width: 100%;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1000px) {
+                                        header {
+                                            width: 100%;
+                                            max-height: 580px;
+                                        }
+                                        /*sider*/
+                                        header .carrucel .slide {
+                                            height: 500px;
+                                            max-height: 500px;
+                                        }
+                                        header .carrucel .slide .carousel-inner {
+                                            width: 100%;
+                                            max-height: 500px;
+                                        }
+                                        header .carrucel .slide .carousel-inner img {
+                                            height: 500px;
+                                        }
+                                        /*next- prev */
+                                        header .carousel .carousel-control-prev {
+                                            max-width: 50px;
+                                            max-height: 500px;
+                                        }
+                                        header .carousel .carousel-control-next {
+                                            max-width: 50px;
+                                            max-height: 500px;
+                                        }
+                                        /*next-prev hover*/
+                                        header .carousel .carousel-control-next:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 500px;
+                                        }
+                                        header .carousel .carousel-control-prev:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 500px;
+                                        }
+                                        /*wave */
+                                        .wave {
+                                            position: absolute;
+                                            bottom: 0;
+                                            width: 100%;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :766px) {
+                                        header {
+                                            width: 100%;
+                                            height: 400px;
+                                        }
+                                        /*sider*/
+                                        header .carrucel .slide {
+                                            height: 400px;
+                                        }
+                                        header .carrucel .slide .carousel-inner img {
+                                            height: 400px;
+                                            width: 100%;
+                                        }
+                                        header .carrucel .slide .carousel-inner {
+                                            width: 100%;
+                                            max-height: 400px;
+                                        }
+                                        /*next- prev */
+                                        header .carousel .carousel-control-prev {
+                                            max-width: 50px;
+                                            max-height: 400px;
+                                        }
+                                        header .carousel .carousel-control-next {
+                                            max-width: 50px;
+                                            max-height: 400px;
+                                        }
+                                        /*next-prev hover*/
+                                        header .carousel .carousel-control-next:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 400px;
+                                        }
+                                        header .carousel .carousel-control-prev:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 400px;
+                                        }
+                                        /*wave */
+                                    }
+                                    
+                                    @media screen and (max-width :460px) {
+                                        header {
+                                            width: 100%;
+                                            height: 200px;
+                                        }
+                                        /*sider*/
+                                        header .carrucel .slide {
+                                            height: 200px;
+                                        }
+                                        header .carrucel .slide .carousel-inner {
+                                            width: 100%;
+                                            max-height: 200px;
+                                        }
+                                        header .carrucel .slide .carousel-inner img {
+                                            height: 200px;
+                                        }
+                                        /*next- prev */
+                                        header .carousel .carousel-control-prev {
+                                            max-width: 35px;
+                                            max-height: 200px;
+                                        }
+                                        header .carousel .carousel-control-next {
+                                            max-width: 35px;
+                                            max-height: 200px;
+                                        }
+                                        /*next-prev hover*/
+                                        header .carousel .carousel-control-next:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 200px;
+                                        }
+                                        header .carousel .carousel-control-prev:hover {
+                                            background-color: rgba(5, 170, 182, 0.514);
+                                            max-height: 200px;
+                                        }
+                                    }
+                                    /* -------------media query de informacion 1 logoq------------------*/
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        .logoq .logo img {
+                                            max-width: 600px;
+                                            text-align: center;
+                                            margin: 0px 350px;
+                                        }
+                                        .logoq .logo h1 {
+                                            max-width: 1000px;
+                                            font-size: 50px;
+                                            height: 350px;
+                                            text-align: center;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        .logo {
+                                            max-width: 700px;
+                                        }
+                                        .logoq {
+                                            display: grid;
+                                            grid-template-columns: 1fr;
+                                        }
+                                        .logoq .logo img {
+                                            max-width: 300px;
+                                            width: 300px;
+                                            margin: 0px 200px;
+                                            text-align: center;
+                                        }
+                                        .logoq .logo h1 {
+                                            max-width: 700px;
+                                            font-size: 35px;
+                                            height: 200px;
+                                            margin: 05px;
+                                            text-align: center;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        .logo {
+                                            max-width: 500px;
+                                        }
+                                        .logoq {
+                                            display: grid;
+                                            grid-template-columns: 1fr;
+                                        }
+                                        .logoq .logo img {
+                                            max-width: 300px;
+                                            width: 300px;
+                                            margin: 0px 150px;
+                                            text-align: center;
+                                        }
+                                        .logoq .logo h1 {
+                                            max-width: 500px;
+                                            font-size: 25px;
+                                            height: 200px;
+                                            margin: 05px;
+                                            text-align: center;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 450px) {
+                                        .logo {
+                                            width: 100%;
+                                        }
+                                        .logoq {
+                                            display: grid;
+                                            grid-template-columns: 1fr;
+                                        }
+                                        .logoq .logo img {
+                                            max-width: 300px;
+                                            width: 250px;
+                                            margin: 0px 70px;
+                                            text-align: center;
+                                        }
+                                        .logoq .logo h1 {
+                                            max-width: 350px;
+                                            font-size: 20px;
+                                            height: 200px;
+                                            margin: 05px;
+                                            text-align: center;
+                                        }
+                                    }
+                                    /*-----------informacion1 a 1200px--------*/
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        main .renegado {
+                                            height: 600px;
+                                            display: grid;
+                                            grid-template-rows: none;
+                                            grid-template-columns: 500 1fr;
+                                            grid-template-areas: "img info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        .renegado .img1 {
+                                            display: grid;
+                                            grid-area: img;
+                                            margin: 10px 30px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        .renegado .img1 img {
+                                            width: 400px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .information {
+                                            display: grid;
+                                            grid-area: info;
+                                            margin: 15px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .information p {
+                                            font-size: 25px;
+                                            margin: 15px;
+                                        }
+                                    }
+                                    /*-------media a 1000px*/
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        main .renegado {
+                                            height: 600px;
+                                            display: grid;
+                                            grid-template-rows: none;
+                                            grid-template-columns: 300 500px;
+                                            grid-template-areas: "img info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        .renegado .img1 {
+                                            display: grid;
+                                            grid-area: img;
+                                            margin: 50px 30px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        .renegado .img1 img {
+                                            width: 350px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .information {
+                                            display: grid;
+                                            grid-area: info;
+                                            margin: 15px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .information p {
+                                            font-size: 20px;
+                                            margin: 15px;
+                                        }
+                                    }
+                                    /*-------media a 766px*/
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        main .renegado {
+                                            height: 500px;
+                                            display: grid;
+                                            grid-template-rows: none;
+                                            grid-template-columns: 200px 300px;
+                                            grid-template-areas: "img info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        .renegado .img1 {
+                                            display: grid;
+                                            grid-area: img;
+                                            margin: 50px 30px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        .renegado .img1 img {
+                                            width: 200px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .information {
+                                            display: grid;
+                                            grid-area: info;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .information h2 {
+                                            font-size: 40px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .information p {
+                                            font-size: 18px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    /*-------media a 400px*/
+                                    
+                                    @media screen and (max-width: 420px) {
+                                        main .renegado {
+                                            height: 700px;
+                                            width: 100%;
+                                            text-align: center;
+                                            display: grid;
+                                            padding: 20px;
+                                            grid-template-rows: 200px 400px;
+                                            grid-template-columns: none;
+                                            grid-template-areas: "img"" info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 420px) {
+                                        .renegado .img1 {
+                                            display: grid;
+                                            grid-area: img;
+                                            margin: 10px 0px 0px 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 420px) {
+                                        .renegado .img1 img {
+                                            width: 250px;
+                                            margin: 0px 35px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 420px) {
+                                        section .information {
+                                            display: grid;
+                                            height: 500px;
+                                            width: 380px;
+                                            grid-area: info;
+                                            margin: 10px 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 420px) {
+                                        section .information h2 {
+                                            font-size: 30px;
+                                            margin: 10px 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 420px) {
+                                        section .information p {
+                                            font-size: 15px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    /* -------------media query de informacion 2------------------*/
+                                    /*----------media information2  a 1200px----------*/
+                                    
+                                    @media screen and (max-width :1200px) {
+                                        .information2 {
+                                            width: 1fr;
+                                            height: 800px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1200px) {
+                                        section .t1 .infoimg {
+                                            display: grid;
+                                            grid-template-areas: "info img";
+                                            grid-template-columns: 450px 450px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1200px) {
+                                        section .t1 .infoimg .info {
+                                            display: grid;
+                                            width: 400px;
+                                            height: 700px;
+                                            font-size: 18px;
+                                            /*me quede aqui*/
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1200px) {
+                                        section .t1 .infoimg img {
+                                            display: grid;
+                                            width: 400px;
+                                            grid-area: img;
+                                            margin: 50px;
+                                        }
+                                    }
+                                    /*----------media information2  a 1000px----------*/
+                                    
+                                    @media screen and (max-width :1000px) {
+                                        .information2 {
+                                            width: 1fr;
+                                            height: 700px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1000px) {
+                                        section .t1 .infoimg {
+                                            display: grid;
+                                            grid-template-areas: "info img";
+                                            grid-template-columns: 400px 300px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1000px) {
+                                        section .t1 .infoimg .info {
+                                            display: grid;
+                                            width: 300px;
+                                            height: 700px;
+                                            font-size: 15px;
+                                            font-family: Georgia, 'Times New Roman', Times, serif;
+                                            /*me quede aqui*/
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1000px) {
+                                        section .t1 .infoimg .info h3 {
+                                            font-size: 18px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :1000px) {
+                                        section .t1 .infoimg .imagen img {
+                                            display: grid;
+                                            width: 250px;
+                                            grid-area: img;
+                                            margin: 250px 10px;
+                                        }
+                                    }
+                                    /*----------media information2  a 766px----------*/
+                                    
+                                    @media screen and (max-width :766px) {
+                                        .information2 {
+                                            width: 1fr;
+                                            height: 1000px;
+                                            margin-top: 30px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :766px) {
+                                        section .t1 {
+                                            display: grid;
+                                            grid-template-areas: "titulo""imginfo";
+                                            grid-template-rows: 100px 800px;
+                                            grid-template-columns: none;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :766px) {
+                                        section .t1 .infoimg {
+                                            display: grid;
+                                            grid-area: imginfo;
+                                            grid-template-areas: "img""info";
+                                            grid-template-rows: 300px 500px;
+                                            grid-template-columns: none;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :766px) {
+                                        section .t1 .titulo {
+                                            display: grid;
+                                            grid-area: titulo;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :766px) {
+                                        section .t1 .infoimg .info {
+                                            display: grid;
+                                            width: 350px;
+                                            height: 500px;
+                                            font-size: 15px;
+                                            /*me quede aqui*/
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :766px) {
+                                        section .t1 .infoimg .info h3 {
+                                            font-size: 20px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :766px) {
+                                        section .t1 .infoimg .imagen img {
+                                            display: grid;
+                                            width: 300px;
+                                            grid-area: img;
+                                            margin: 50px 100px;
+                                        }
+                                    }
+                                    /*----------media information2  a 420px----------*/
+                                    
+                                    @media screen and (max-width :420px) {
+                                        .information2 {
+                                            width: 1fr;
+                                            height: 800px;
+                                            margin-top: 30px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :420px) {
+                                        section .t1 {
+                                            height: 800px;
+                                            display: grid;
+                                            grid-template-areas: "titulo""imginfo";
+                                            grid-template-rows: 80px 600px;
+                                            grid-template-columns: none;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :420px) {
+                                        section .t1 .infoimg {
+                                            display: grid;
+                                            grid-area: imginfo;
+                                            grid-template-areas: "img""info";
+                                            grid-template-rows: 200px 400px;
+                                            grid-template-columns: none;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :420px) {
+                                        section .t1 .titulo {
+                                            display: grid;
+                                            grid-area: titulo;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :420px) {
+                                        section .t1 .titulo h2 {
+                                            font-size: 50px
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :420px) {
+                                        section .t1 .infoimg .info {
+                                            display: grid;
+                                            width: 250px;
+                                            height: 300px;
+                                            font-size: 15px;
+                                            /*me quede aqui*/
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :420px) {
+                                        section .t1 .infoimg .info h3 {
+                                            font-size: 15px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width :420px) {
+                                        section .t1 .infoimg .imagen img {
+                                            display: grid;
+                                            width: 200px;
+                                            grid-area: img;
+                                            margin: 50px 80px;
+                                        }
+                                    }
+                                    /*----------media formuilario  a 1200px----------*/
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario {
+                                            width: 935px;
+                                            display: grid;
+                                            grid-template-columns: 400px 500px;
+                                            grid-template-areas: "form info";
+                                            height: 600px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .registro {
+                                            width: 350px;
+                                            display: grid;
+                                            grid-area: form;
+                                            height: 500px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section form {
+                                            width: 380px;
+                                            height: 600px;
+                                        }
+                                    }
+                                    /*registrate*/
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario h2 {
+                                            font-size: 40px;
+                                        }
+                                    }
+                                    /*inputs*/
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario input {
+                                            width: 300px;
+                                            height: 40px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .registro h4 {
+                                            max-width: 380px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*botones*/
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .registro .perfil {
+                                            max-width: 380px;
+                                            height: 50px;
+                                            font-size: 25px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .registro .perfil button {
+                                            max-width: 340px;
+                                            height: 50px;
+                                            font-size: 25px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .registro .botones {
+                                            max-width: 370px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .registro .botones .comprar {
+                                            max-width: 150px;
+                                            height: 40px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .registro .botones .vender {
+                                            max-width: 150px;
+                                            height: 40px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*informacion e imagen*/
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .information-description {
+                                            display: grid;
+                                            grid-area: info;
+                                            max-width: 550px;
+                                            height: 600px;
+                                            grid-template-rows: 300px 1fr;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .information-description p {
+                                            max-width: 500px;
+                                            max-height: 400px;
+                                            font-size: 22px;
+                                            height: 250px;
+                                            display: grid;
+                                            grid-area: info;
+                                            width: 500px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1200px) {
+                                        section .formulario .information-description img {
+                                            max-width: 300px;
+                                            height: 250px;
+                                            display: grid;
+                                            grid-area: img;
+                                        }
+                                    }
+                                    /*----------media formuilario  a 1000px----------*/
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario {
+                                            width: 735px;
+                                            display: grid;
+                                            grid-template-columns: 300px 300px;
+                                            grid-template-areas: "form info";
+                                            height: 600px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .registro {
+                                            width: 280px;
+                                            display: grid;
+                                            grid-area: form;
+                                            height: 450px;
+                                            padding: 1px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section form {
+                                            width: 280px;
+                                            height: 500px;
+                                        }
+                                    }
+                                    /*registrate*/
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario h2 {
+                                            font-size: 30px;
+                                        }
+                                    }
+                                    /*inputs*/
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario input {
+                                            width: 220px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 25px 0px -10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .registro h4 {
+                                            max-width: 220px;
+                                            height: 50px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*botones*/
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .registro .perfil {
+                                            max-width: 220px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .registro .perfil button {
+                                            max-width: 220px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .registro .botones {
+                                            max-width: 260px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .registro .botones .comprar {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            border-radius: 50px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .registro .botones .vender {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            border-radius: 50px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*informacion e imagen*/
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .information-description {
+                                            display: grid;
+                                            grid-area: info;
+                                            max-width: 500px;
+                                            height: 600px;
+                                            grid-template-rows: 300px 1fr;
+                                            grid-template-areas: "img" "info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .information-description p {
+                                            width: 300px;
+                                            max-height: 300px;
+                                            font-size: 20px;
+                                            height: 280px;
+                                            display: grid;
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        section .formulario .information-description img {
+                                            max-width: 300px;
+                                            height: 300px;
+                                            display: grid;
+                                            grid-area: img;
+                                        }
+                                    }
+                                    /*----------media formuilario  a 766px----------*/
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario {
+                                            width: 500px;
+                                            display: grid;
+                                            grid-template-rows: 600px 600px;
+                                            grid-template-columns: none;
+                                            grid-template-areas: "form"" info";
+                                            height: 1200px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .registro {
+                                            width: 400px;
+                                            display: grid;
+                                            grid-area: form;
+                                            height: 600px;
+                                            padding: 1px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section form {
+                                            width: 480px;
+                                            height: 600px;
+                                        }
+                                    }
+                                    /*registrate*/
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario h2 {
+                                            font-size: 30px;
+                                        }
+                                    }
+                                    /*inputs*/
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario input {
+                                            width: 350px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 25px 0px -10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .registro h4 {
+                                            max-width: 480px;
+                                            height: 50px;
+                                            font-size: 25px;
+                                            padding: 5px;
+                                            margin: 15px 10px 0px;
+                                        }
+                                    }
+                                    /*botones*/
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .registro .perfil {
+                                            max-width: 480px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .registro .perfil button {
+                                            max-width: 480px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .registro .botones {
+                                            max-width: 480px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .registro .botones .comprar {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            border-radius: 50px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .registro .botones .vender {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            border-radius: 50px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*informacion e imagen*/
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .information-description {
+                                            display: grid;
+                                            grid-area: info;
+                                            max-width: 1fr;
+                                            height: 900px;
+                                            grid-template-rows: 300px 1fr;
+                                            grid-template-areas: "img" "info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .information-description p {
+                                            width: 470px;
+                                            font-size: 23px;
+                                            height: 300px;
+                                            display: grid;
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        section .formulario .information-description img {
+                                            width: 250px;
+                                            height: 250px;
+                                            display: grid;
+                                            grid-area: img;
+                                        }
+                                    }
+                                    /*----------media formuilario  a 499px----------*/
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario {
+                                            width: 100%;
+                                            display: grid;
+                                            grid-template-rows: 400px 700px;
+                                            grid-template-columns: none;
+                                            grid-template-areas: " info""form";
+                                            height: 1050px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .registro {
+                                            width: 430px;
+                                            display: grid;
+                                            grid-area: form;
+                                            height: 600px;
+                                            padding: 1px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section form {
+                                            width: 420px;
+                                            height: 600px;
+                                        }
+                                    }
+                                    /*registrate*/
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario h2 {
+                                            font-size: 30px;
+                                        }
+                                    }
+                                    /*inputs*/
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario input {
+                                            width: 380px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 25px 0px -10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .registro h4 {
+                                            max-width: 420px;
+                                            height: 50px;
+                                            font-size: 25px;
+                                            padding: 5px;
+                                            margin: 15px 10px 0px;
+                                        }
+                                    }
+                                    /*botones*/
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .registro .perfil {
+                                            width: 380px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .registro .perfil button {
+                                            max-width: 380px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .registro .botones {
+                                            max-width: 420px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .registro .botones .comprar {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            border-radius: 50px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .registro .botones .vender {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            border-radius: 50px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*informacion e imagen*/
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .information-description {
+                                            display: grid;
+                                            grid-area: info;
+                                            width: 100%;
+                                            height: 600px;
+                                            grid-template-rows: 220px 1fr;
+                                            grid-template-areas: "img" "info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .information-description p {
+                                            width: 420px;
+                                            font-size: 18px;
+                                            height: 300px;
+                                            display: grid;
+                                            margin: 0px 0px 20px 0px;
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 499px) {
+                                        section .formulario .information-description img {
+                                            width: 200px;
+                                            height: 200px;
+                                            display: grid;
+                                            grid-area: img;
+                                        }
+                                    }
+                                    /*----------media formuilario  a 466px----------*/
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario {
+                                            width: 380px;
+                                            background-color: #ffffff;
+                                            display: grid;
+                                            grid-template-rows: 400px 500px;
+                                            grid-template-columns: none;
+                                            grid-template-areas: " info""form";
+                                            height: 900px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .registro {
+                                            width: 380px;
+                                            display: grid;
+                                            grid-area: form;
+                                            height: 600px;
+                                            padding: 1px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section form {
+                                            background-color: aquamarine;
+                                            border-radius: 30px;
+                                            width: 380px;
+                                            height: 600px;
+                                        }
+                                    }
+                                    /*registrate*/
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario h2 {
+                                            font-size: 27px;
+                                        }
+                                    }
+                                    /*inputs*/
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario input {
+                                            width: 350px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 25px 0px -10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width:466px) {
+                                        section .formulario .registro h4 {
+                                            max-width: 380px;
+                                            height: 50px;
+                                            font-size: 25px;
+                                            padding: 5px;
+                                            margin: 15px 10px 0px;
+                                        }
+                                    }
+                                    /*botones*/
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .registro .perfil {
+                                            width: 350px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .registro .perfil button {
+                                            max-width: 350px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .registro .botones {
+                                            max-width: 420px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .registro .botones .comprar {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            border-radius: 50px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .registro .botones .vender {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            border-radius: 50px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*informacion e imagen*/
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .information-description {
+                                            display: grid;
+                                            grid-area: info;
+                                            max-width: 1fr;
+                                            height: 600px;
+                                            grid-template-rows: 200px 1fr;
+                                            grid-template-areas: "img" "info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .information-description p {
+                                            max-width: 350px;
+                                            font-size: 18px;
+                                            height: 350px;
+                                            color: #000000;
+                                            display: grid;
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .information-description img {
+                                            width: 200px;
+                                            height: 200px;
+                                            display: grid;
+                                            grid-area: img;
+                                        }
+                                    }
+                                    /*----------media formuilario  a 400px----------*/
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario {
+                                            width: 350px;
+                                            display: grid;
+                                            grid-template-rows: 400px 500px;
+                                            grid-template-columns: none;
+                                            grid-template-areas: " info""form";
+                                            height: 900px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .registro {
+                                            width: 300px;
+                                            display: grid;
+                                            grid-area: form;
+                                            height: 600px;
+                                            padding: 1px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section form {
+                                            background-color: aquamarine;
+                                            border-radius: 30px;
+                                            width: 320px;
+                                            height: 550px;
+                                        }
+                                    }
+                                    /*registrate*/
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario h2 {
+                                            font-size: 27px;
+                                        }
+                                    }
+                                    /*inputs*/
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario input {
+                                            width: 280px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 25px 0px -10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .registro h4 {
+                                            max-width: 280px;
+                                            height: 50px;
+                                            font-size: 25px;
+                                            padding: 5px;
+                                            margin: 15px 10px 0px;
+                                        }
+                                    }
+                                    /*botones*/
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .registro .perfil {
+                                            width: 280px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .registro .perfil button {
+                                            max-width: 280px;
+                                            height: 50px;
+                                            font-size: 20px;
+                                            padding: 5px;
+                                            margin: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 466px) {
+                                        section .formulario .registro .botones {
+                                            max-width: 330px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .registro .botones .comprar {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            border-radius: 50px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .registro .botones .vender {
+                                            max-width: 100px;
+                                            height: 40px;
+                                            border-radius: 50px;
+                                            font-size: 18px;
+                                            padding: 5px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    /*informacion e imagen*/
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .information-description {
+                                            display: grid;
+                                            grid-area: info;
+                                            max-width: 1fr;
+                                            height: 500px;
+                                            grid-template-rows: 200px 1fr;
+                                            grid-template-areas: "img" "info";
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .information-description p {
+                                            max-width: 300px;
+                                            font-size: 15px;
+                                            height: 300px;
+                                            color: #000000;
+                                            display: grid;
+                                            grid-area: info;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 400px) {
+                                        section .formulario .information-description img {
+                                            width: 200px;
+                                            height: 200px;
+                                            display: grid;
+                                            grid-area: img;
+                                        }
+                                    }
+                                    /*----------------------info 3-------------*/
+                                    
+                                    @media screen and (max-width:766px) {
+                                        section .info3 {
+                                            height: 500px;
+                                            display: grid;
+                                            grid-template-rows: 150px 600px;
+                                            grid-template-areas: "titulo" "inf";
+                                        }
+                                        section .info3 h2 {
+                                            display: grid;
+                                            grid-area: titulo;
+                                            margin: 5px;
+                                            padding: 10px;
+                                        }
+                                        section .info3 p {
+                                            display: grid;
+                                            grid-area: inf;
+                                            font-size: 20px;
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            margin: 35px;
+                                            padding: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 420px) {
+                                        section .info3 {
+                                            height: 500px;
+                                            display: grid;
+                                            font-size: 50px;
+                                            grid-template-rows: 150px 600px;
+                                            grid-template-areas: "titulo" "inf";
+                                        }
+                                        section .info3 h2 {
+                                            display: grid;
+                                            font-size: 40px;
+                                            grid-area: titulo;
+                                            margin: 20px;
+                                            padding: 10px;
+                                        }
+                                        section .info3 p {
+                                            display: grid;
+                                            grid-area: inf;
+                                            font-size: 18px;
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            margin: 25px;
+                                            padding: 10px;
+                                        }
+                                    }
+                                    /*----------media query informacion 3 a 1200px-----*/
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        .contactanos {
+                                            height: 200px;
+                                            display: grid;
+                                            grid-template-areas: "titulo info";
+                                            grid-template-columns: 1fr 1fr;
+                                            max-width: 100%
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        .contactanos h2 {
+                                            display: grid;
+                                            grid-area: titulo;
+                                        }
+                                        .contactanos .contactano h2 {
+                                            font-size: 40px
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        .contactanos .contactos {
+                                            max-width: 300px;
+                                            display: grid;
+                                            grid-area: info;
+                                            height: 200px;
+                                            margin: 5px 10px;
+                                        }
+                                        .contactanos .contactos a {
+                                            font-size: 20px;
+                                            text-align: center;
+                                        }
+                                    }
+                                    /*media a 460 contactos*/
+                                    
+                                    @media screen and (max-width: 600px) {
+                                        .contactanos {
+                                            height: 500px;
+                                            display: grid;
+                                            margin: 50px;
+                                            grid-template-areas: "titulo"" info";
+                                            grid-template-rows: 1fr 1fr;
+                                            grid-template-columns: none;
+                                            max-width: 100%
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 600px) {
+                                        .contactanos h2 {
+                                            display: grid;
+                                            grid-area: titulo;
+                                        }
+                                        .contactanos .contactano h2 {
+                                            font-size: 50px
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 600px) {
+                                        .contactanos .contactos {
+                                            max-width: 100%;
+                                            display: grid;
+                                            grid-area: info;
+                                            height: 180px;
+                                        }
+                                        .contactanos .contactos a {
+                                            font-size: 15px;
+                                            text-align: center;
+                                        }
+                                    }
+                                    /*footer*/
+                                    
+                                    @media screen and (max-width: 1000px) {
+                                        footer {
+                                            color: #ffffff;
+                                            width: 100%;
+                                            margin: 20px 0px 0px 0px;
+                                            padding: 15px;
+                                            height: 100px;
+                                            text-align: center;
+                                        }
+                                        footer h4 {
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 20px;
+                                            margin: 2px 0px;
+                                        }
+                                        footer h2 {
+                                            margin: 5px;
+                                            padding: 10px;
+                                        }
+                                        footer a {
+                                            color: aqua;
+                                            font-size: 22px;
+                                            padding: 5px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 766px) {
+                                        footer {
+                                            width: 100%;
+                                            margin: 20px 0px 0px 0px;
+                                            padding: 10px;
+                                            height: 120px;
+                                            text-align: center;
+                                        }
+                                        footer h4 {
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 18px;
+                                            margin: 2px 0px;
+                                        }
+                                        footer h2 {
+                                            margin: 5px;
+                                            padding: 10px;
+                                        }
+                                        footer a {
+                                            color: aqua;
+                                            font-size: 18px;
+                                            margin: 5px;
+                                            padding: 5px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 600px) {
+                                        footer {
+                                            color: #ffffff;
+                                            width: 100%;
+                                            padding: 10px;
+                                            margin: 50px 0px 0px 0px;
+                                            height: 100px;
+                                            text-align: center;
+                                        }
+                                        footer h2 {
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 16px;
+                                            margin: 2px 0px;
+                                            padding: 5px
+                                        }
+                                        footer h4 {
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 16px;
+                                            margin: 2px 0px;
+                                            padding: 5px
+                                        }
+                                        footer a {
+                                            color: aqua;
+                                            font-size: 15px;
+                                            padding: 15px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 460px) {
+                                        footer {
+                                            color: #ffffff;
+                                            width: 100%;
+                                            padding: 10px;
+                                            margin: 50px 0px 0px 0px;
+                                            height: 90px;
+                                            text-align: center;
+                                        }
+                                        footer h2 {
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 12px;
+                                            margin: 2px 0px;
+                                            padding: 1px
+                                        }
+                                        footer h4 {
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            font-size: 16px;
+                                            margin: 2px 0px;
+                                            padding: 1px
+                                        }
+                                        footer a {
+                                            color: aqua;
+                                            font-size: 16px;
+                                            padding: 5px;
+                                        }
+                                    }
