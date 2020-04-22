@@ -195,40 +195,6 @@
                                         border-radius: 25px;
                                     }
                                     
-                                    section h4 {
-                                        font-size: 25px;
-                                        color: aliceblue;
-                                    }
-                                    
-                                    section .botones button {
-                                        width: 200px;
-                                        background-color: rgb(207, 231, 216);
-                                        margin: 0px 0px 25px;
-                                        padding: 5px;
-                                        font-size: 20px;
-                                        border-radius: 0px 25px 25px 0px;
-                                        border: none;
-                                        margin: 0px 0px 25px;
-                                    }
-                                    
-                                    section .botones button:hover {
-                                        background-color: aqua;
-                                    }
-                                    
-                                    section .botones .comprar {
-                                        width: 200px;
-                                        background-color: rgb(207, 231, 216);
-                                        margin: 0px 0px 25px;
-                                        padding: 5px;
-                                        font-size: 20px;
-                                        border: none;
-                                        border-radius: 25px 0px 0px 25px;
-                                    }
-                                    
-                                    section .botones .comprar:hover {
-                                        background-color: aqua;
-                                    }
-                                    
                                     section .perfil button {
                                         width: 410px;
                                         background-color: rgb(9, 92, 112);
@@ -240,18 +206,37 @@
                                         color: #ffffff;
                                         border-radius: 50px;
                                         font-size: 30px;
+                                        -webkit-transition: all 0.3 ease;
+                                        -o-transition: all 0.3 ease;
+                                        transition: all 0.3s ease;
                                         box-shadow: black 2, 25px 25px;
                                     }
                                     
+                                    section .perfil button:hover {
+                                        background-color: rgba(0, 110, 255, 0.397);
+                                    }
+                                    
                                     section form a {
-                                        margin: 25px 35px;
-                                        padding: 15px;
-                                        height: 15px;
-                                        width: 200px;
+                                        margin: 15px 35px;
+                                        padding: 5px;
+                                        height: 50px;
+                                        display: inline-block;
+                                        width: 300px;
                                         font-size: 25px;
-                                        background-color: #34FF7F;
+                                        text-emphasis: none;
+                                        text-decoration: none;
+                                        background-color: rgb(248, 90, 90);
                                         border-radius: 50px;
                                         color: #ffffff;
+                                    }
+                                    
+                                    section form a:hover {
+                                        background-color: rgba(60, 255, 70, 0.5)
+                                    }
+                                    
+                                    section form a:hover {
+                                        text-decoration: none;
+                                        color: antiquewhite;
                                     }
                                     /*informacion de registro*/
                                     
@@ -1084,20 +1069,14 @@
                                             display: grid;
                                             grid-template-columns: 400px 500px;
                                             grid-template-areas: "form info";
-                                            height: 600px;
+                                            height: 650px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
                                         section .formulario .registro {
                                             width: 350px;
                                             display: grid;
                                             grid-area: form;
                                             height: 500px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
                                         section form {
                                             width: 380px;
                                             height: 600px;
@@ -1120,9 +1099,6 @@
                                             padding: 5px;
                                             margin: 10px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
                                         section .formulario .registro h4 {
                                             max-width: 380px;
                                             height: 50px;
@@ -1141,42 +1117,12 @@
                                             padding: 5px;
                                             margin: 10px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
                                         section .formulario .registro .perfil button {
                                             max-width: 340px;
                                             height: 50px;
                                             font-size: 25px;
                                             padding: 5px;
                                             margin: 10px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
-                                        section .formulario .registro .botones {
-                                            max-width: 370px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
-                                        section .formulario .registro .botones .comprar {
-                                            max-width: 150px;
-                                            height: 40px;
-                                            font-size: 20px;
-                                            padding: 5px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
-                                        section .formulario .registro .botones .vender {
-                                            max-width: 150px;
-                                            height: 40px;
-                                            font-size: 20px;
-                                            padding: 5px;
-                                            margin: 0px;
                                         }
                                     }
                                     /*informacion e imagen*/
@@ -1189,9 +1135,6 @@
                                             height: 600px;
                                             grid-template-rows: 300px 1fr;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
                                         section .formulario .information-description p {
                                             max-width: 500px;
                                             max-height: 400px;
@@ -1201,9 +1144,6 @@
                                             grid-area: info;
                                             width: 500px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1200px) {
                                         section .formulario .information-description img {
                                             max-width: 300px;
                                             height: 250px;
@@ -1219,11 +1159,8 @@
                                             display: grid;
                                             grid-template-columns: 300px 300px;
                                             grid-template-areas: "form info";
-                                            height: 600px;
+                                            height: 630px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
                                         section .formulario .registro {
                                             width: 280px;
                                             display: grid;
@@ -1231,9 +1168,6 @@
                                             height: 450px;
                                             padding: 1px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
                                         section form {
                                             width: 280px;
                                             height: 500px;
@@ -1257,16 +1191,6 @@
                                             margin: 25px 0px -10px;
                                         }
                                     }
-                                    
-                                    @media screen and (max-width: 1000px) {
-                                        section .formulario .registro h4 {
-                                            max-width: 220px;
-                                            height: 50px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            margin: 0px;
-                                        }
-                                    }
                                     /*botones*/
                                     
                                     @media screen and (max-width: 1000px) {
@@ -1277,9 +1201,6 @@
                                             padding: 5px;
                                             margin: 10px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
                                         section .formulario .registro .perfil button {
                                             max-width: 220px;
                                             height: 50px;
@@ -1287,34 +1208,10 @@
                                             padding: 5px;
                                             margin: 10px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
-                                        section .formulario .registro .botones {
-                                            max-width: 260px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
-                                        section .formulario .registro .botones .comprar {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            border-radius: 50px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
-                                        section .formulario .registro .botones .vender {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            border-radius: 50px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            margin: 0px;
+                                        .perfil a {
+                                            margin: 10px;
+                                            width: 220px;
+                                            height: 50px;
                                         }
                                     }
                                     /*informacion e imagen*/
@@ -1328,9 +1225,6 @@
                                             grid-template-rows: 300px 1fr;
                                             grid-template-areas: "img" "info";
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
                                         section .formulario .information-description p {
                                             width: 300px;
                                             max-height: 300px;
@@ -1339,9 +1233,6 @@
                                             display: grid;
                                             grid-area: info;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 1000px) {
                                         section .formulario .information-description img {
                                             max-width: 300px;
                                             height: 300px;
@@ -1355,14 +1246,11 @@
                                         section .formulario {
                                             width: 500px;
                                             display: grid;
-                                            grid-template-rows: 600px 600px;
+                                            grid-template-rows: 750px 600px;
                                             grid-template-columns: none;
                                             grid-template-areas: "form"" info";
-                                            height: 1200px;
+                                            height: 1350px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
                                         section .formulario .registro {
                                             width: 400px;
                                             display: grid;
@@ -1370,12 +1258,9 @@
                                             height: 600px;
                                             padding: 1px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
                                         section form {
                                             width: 480px;
-                                            height: 600px;
+                                            height: 700px;
                                         }
                                     }
                                     /*registrate*/
@@ -1396,16 +1281,6 @@
                                             margin: 25px 0px -10px;
                                         }
                                     }
-                                    
-                                    @media screen and (max-width: 766px) {
-                                        section .formulario .registro h4 {
-                                            max-width: 480px;
-                                            height: 50px;
-                                            font-size: 25px;
-                                            padding: 5px;
-                                            margin: 15px 10px 0px;
-                                        }
-                                    }
                                     /*botones*/
                                     
                                     @media screen and (max-width: 766px) {
@@ -1416,44 +1291,12 @@
                                             padding: 5px;
                                             margin: 10px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
                                         section .formulario .registro .perfil button {
                                             max-width: 480px;
                                             height: 50px;
                                             font-size: 20px;
                                             padding: 5px;
                                             margin: 10px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
-                                        section .formulario .registro .botones {
-                                            max-width: 480px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
-                                        section .formulario .registro .botones .comprar {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            border-radius: 50px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
-                                        section .formulario .registro .botones .vender {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            border-radius: 50px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            margin: 0px;
                                         }
                                     }
                                     /*informacion e imagen*/
@@ -1467,9 +1310,6 @@
                                             grid-template-rows: 300px 1fr;
                                             grid-template-areas: "img" "info";
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
                                         section .formulario .information-description p {
                                             width: 470px;
                                             font-size: 23px;
@@ -1477,9 +1317,6 @@
                                             display: grid;
                                             grid-area: info;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 766px) {
                                         section .formulario .information-description img {
                                             width: 250px;
                                             height: 250px;
@@ -1498,9 +1335,6 @@
                                             grid-template-areas: " info""form";
                                             height: 1050px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
                                         section .formulario .registro {
                                             width: 430px;
                                             display: grid;
@@ -1508,9 +1342,6 @@
                                             height: 600px;
                                             padding: 1px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
                                         section form {
                                             width: 420px;
                                             height: 600px;
@@ -1534,16 +1365,6 @@
                                             margin: 25px 0px -10px;
                                         }
                                     }
-                                    
-                                    @media screen and (max-width: 499px) {
-                                        section .formulario .registro h4 {
-                                            max-width: 420px;
-                                            height: 50px;
-                                            font-size: 25px;
-                                            padding: 5px;
-                                            margin: 15px 10px 0px;
-                                        }
-                                    }
                                     /*botones*/
                                     
                                     @media screen and (max-width: 499px) {
@@ -1554,44 +1375,12 @@
                                             padding: 5px;
                                             margin: 10px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
                                         section .formulario .registro .perfil button {
                                             max-width: 380px;
                                             height: 50px;
                                             font-size: 20px;
                                             padding: 5px;
                                             margin: 10px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
-                                        section .formulario .registro .botones {
-                                            max-width: 420px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
-                                        section .formulario .registro .botones .comprar {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            border-radius: 50px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
-                                        section .formulario .registro .botones .vender {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            border-radius: 50px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            margin: 0px;
                                         }
                                     }
                                     /*informacion e imagen*/
@@ -1605,9 +1394,6 @@
                                             grid-template-rows: 220px 1fr;
                                             grid-template-areas: "img" "info";
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
                                         section .formulario .information-description p {
                                             width: 420px;
                                             font-size: 18px;
@@ -1616,9 +1402,6 @@
                                             margin: 0px 0px 20px 0px;
                                             grid-area: info;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 499px) {
                                         section .formulario .information-description img {
                                             width: 200px;
                                             height: 200px;
@@ -1633,29 +1416,23 @@
                                             width: 380px;
                                             background-color: #ffffff;
                                             display: grid;
-                                            grid-template-rows: 400px 500px;
+                                            grid-template-rows: 400px 550px;
                                             grid-template-columns: none;
                                             grid-template-areas: " info""form";
-                                            height: 900px;
+                                            height: 1000px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
                                         section .formulario .registro {
                                             width: 380px;
                                             display: grid;
                                             grid-area: form;
-                                            height: 600px;
+                                            height: 650px;
                                             padding: 1px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
                                         section form {
-                                            background-color: aquamarine;
+                                            background-color: rgb(8, 184, 228);
                                             border-radius: 30px;
                                             width: 380px;
-                                            height: 600px;
+                                            height: 650px;
                                         }
                                     }
                                     /*registrate*/
@@ -1676,64 +1453,22 @@
                                             margin: 25px 0px -10px;
                                         }
                                     }
-                                    
-                                    @media screen and (max-width:466px) {
-                                        section .formulario .registro h4 {
-                                            max-width: 380px;
-                                            height: 50px;
-                                            font-size: 25px;
-                                            padding: 5px;
-                                            margin: 15px 10px 0px;
-                                        }
-                                    }
                                     /*botones*/
                                     
                                     @media screen and (max-width: 466px) {
                                         section .formulario .registro .perfil {
                                             width: 350px;
                                             height: 50px;
-                                            font-size: 20px;
-                                            padding: 5px;
+                                            font-size: 30px;
+                                            padding: 1px;
                                             margin: 10px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
                                         section .formulario .registro .perfil button {
                                             max-width: 350px;
                                             height: 50px;
-                                            font-size: 20px;
-                                            padding: 5px;
+                                            font-size: 30px;
+                                            padding: 1px;
                                             margin: 10px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
-                                        section .formulario .registro .botones {
-                                            max-width: 420px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
-                                        section .formulario .registro .botones .comprar {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            border-radius: 50px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
-                                        section .formulario .registro .botones .vender {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            border-radius: 50px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            margin: 0px;
                                         }
                                     }
                                     /*informacion e imagen*/
@@ -1747,9 +1482,6 @@
                                             grid-template-rows: 200px 1fr;
                                             grid-template-areas: "img" "info";
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
                                         section .formulario .information-description p {
                                             max-width: 350px;
                                             font-size: 18px;
@@ -1758,9 +1490,6 @@
                                             display: grid;
                                             grid-area: info;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
                                         section .formulario .information-description img {
                                             width: 200px;
                                             height: 200px;
@@ -1779,24 +1508,18 @@
                                             grid-template-areas: " info""form";
                                             height: 900px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 400px) {
                                         section .formulario .registro {
                                             width: 300px;
                                             display: grid;
                                             grid-area: form;
-                                            height: 600px;
+                                            height: 650px;
                                             padding: 1px;
                                         }
-                                    }
-                                    
-                                    @media screen and (max-width: 400px) {
                                         section form {
-                                            background-color: aquamarine;
+                                            background-color: rgb(10, 182, 235);
                                             border-radius: 30px;
                                             width: 320px;
-                                            height: 550px;
+                                            height: 650px;
                                         }
                                     }
                                     /*registrate*/
@@ -1815,16 +1538,6 @@
                                             font-size: 18px;
                                             padding: 5px;
                                             margin: 25px 0px -10px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 400px) {
-                                        section .formulario .registro h4 {
-                                            max-width: 280px;
-                                            height: 50px;
-                                            font-size: 25px;
-                                            padding: 5px;
-                                            margin: 15px 10px 0px;
                                         }
                                     }
                                     /*botones*/
@@ -1846,35 +1559,6 @@
                                             font-size: 20px;
                                             padding: 5px;
                                             margin: 10px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 466px) {
-                                        section .formulario .registro .botones {
-                                            max-width: 330px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 400px) {
-                                        section .formulario .registro .botones .comprar {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            border-radius: 50px;
-                                            margin: 0px;
-                                        }
-                                    }
-                                    
-                                    @media screen and (max-width: 400px) {
-                                        section .formulario .registro .botones .vender {
-                                            max-width: 100px;
-                                            height: 40px;
-                                            border-radius: 50px;
-                                            font-size: 18px;
-                                            padding: 5px;
-                                            margin: 0px;
                                         }
                                     }
                                     /*informacion e imagen*/

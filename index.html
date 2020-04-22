@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search House</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/opciones.css">
+    <link rel="stylesheet" href="css/alert.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
@@ -70,8 +73,8 @@
         <section class="container logoq">
             <div class="logo">
                 <img src="img/home.png" alt="">
-                <H1 class="text ">Registrate.
-                    <br> Y compra y vende de forma facil, rapida y segura</H1>
+                <H1 class="text ">Registrate
+                    <br> Compra y vende de forma facil, rapida y segura</H1>
             </div>
         </section>
         <section class="container renegado">
@@ -81,8 +84,8 @@
             <div class=" information">
 
                 <h2 class=" titulo animated bounceIn delay-1s  ">¿Quienes somos?</h2>
-                <p class=" animated bounceIn delay-1s  ">Somos una empresa de vienes raíces que busca conectar de manera eficaz a vendedores y compradores a lo largo de México, <br> para ayudarle a quien desee ser dueño de su propio hogar y brindarle la mejor asesoría aquel que desea vender
-                    su casa
+                <p class=" animated bounceIn delay-1s  ">Somos una empresa de bienes raíces que busca conectar de manera eficaz a vendedores y compradores en una sola plataforma, <br> para quien desee ser dueño de su propio hogar pueda lograrlo con tan solo un par click´s y brindarle la mejor
+                    asesoría aquel que desea vender su casa
                 </p>
             </div>
         </section>
@@ -104,7 +107,7 @@
                         <h3><span>3</span> Reunimos compradores con vendedores en una sola plataforma
 
                         </h3>
-                        <h3><span>4</span> Ofrecemos viviendas de todo tipo en distintas partes de México
+                        <h3><span>4</span> Ofrecemos viviendas de todo tipo en distintas partes de Nuevo Leon
                         </h3>
                         <h3><span>5</span> Nos encargamos de la venta de su vivienda
                         </h3>
@@ -115,43 +118,72 @@
             </div>
         </section>
         <section class="container registro">
-            <div class="formulario">
+
+
+            <div class="formulario" id="formulario">
+
                 <div class=" container registro">
 
-                    <form action="registro">
+                    <form class="validacion" id="form" action="/h.html" name="formulario" onsubmit="return comprobar()">
                         <H2>registrate</H2>
-                        <input type="text" placeholder="nombre completo"><span class="barra"></span>
-                        <input type="text" placeholder="correo electronico"><span class="barra"></span>
-                        <input type="password" placeholder="contraseña"><span class="barra"></span>
-                        <input type="password" placeholder="confirmar contraseña"><span class="barra"></span>
-                        <input type="text" placeholder="Numero de celular"><span class="barra"></span>
+                        <input class="nombre" type="text" id="nombre" onkeypress="return soloLetras(event) " onpaste="return false" placeholder="Nombre completo">
 
-                        <h4>me gustaria</h4>
-                        <div class="botones">
-                            <button type="submit" class="comprar">comprar</button>
-                            <button type="submit" class="vender">vender</button></div>
+                        <input class="correo" type="text" id="correo" placeholder="Correo electronico">
+                        <input class="contraseña" type="password" id="contraseña" placeholder="Contraseña">
+                        <input class="confirmacion" type="password" id="confirmacion" placeholder="Confirmar contraseña">
+
+                        <input class="celular" type="text" id="numero" onkeypress=" return soloNumeros(event)" placeholder="Numero de celular">
+
+
+                        <div class="botone" id="opcion">
+                            <h4>me gustaria:</h4>
+                            <div class="botones">
+                                <input type="radio" class="" name="opcion" value="comprar" id="opcion2">
+                                <label for="opcion2"> Comprar  </label>
+                                <input type="radio" class="" name="opcion" value=" vender" id="opcion1">
+                                <label for="opcion1"> Vender  </label>
+
+
+
+
+                            </div>
+
+                        </div>
 
                         <div class="perfil">
-                            <button type="submit">crear perfil</button></div>
-                        <!--<a href="#">facebook</a>
-                    <a href="#"> gmail</a>-->
+                            <button type="submit">Crear perfil</button>
+                            <a href="#">Ya tengo cuenta</a>
+                        </div>
+
+
                     </form>
                 </div>
+
+                <p class="cuidado " id=" cuidado  ">Verifica tu informacion <br> <br> Si el campo aparece en rojo es porque esta vacio <br> Si el campo aparece en amarillo, hay un error verifica que todo este bien escrito</p>
+
+
+
+                <div id="seleccionaAlgo" class="aler  ">
+                    <h5>No has seleccionado ninguna opcion. Por favor seleciona comprar o vender para continuar con el registro. <br> <br> Despus has click en<br> "crear perfil" </h5>
+
+                </div>
                 <div class="information-description">
+
                     <img src="img/svg/pensando.svg" alt="">
-                    <p>Ya sea que desees vender o comprar lo único que tienes que hacer es registrarte, elegir una opción (Vender/Comprar ) <br>y Search House se encargara de encontrar el mejor resultado para ti,<br> automáticamente y en cuestión de minutos
-                        podras estar un paso mas cerca de tu nuevo hogar</p>
+
+                    <p>¿Te gustaria estrenar casa? Pero... ¿no sabes como? <br> <br> Ya sea que desees vender o comprar, lo único que tienes que hacer es registrarte, elegir una opción, <br>y Search House se encargara de encontrar el mejor resultado para
+                        ti, en cuestion de minutos. <br> Recuerda, alguien podria estar buscando lo que tu vendes, o, vender lo que tu buscas. </p>
                 </div>
             </div>
         </section>
         <section class="container informacion3">
             <div class="info3">
                 <h2 class="titulo">
-                    ¿Como lo hacemos?
+                    Y... ¿Como lo hacemos?
                 </h2>
                 <div class="inf">
-                    <p>Atreves de una base de datos que almacena casas de distintos precios y modelos de las constructoras locales, en distintos lugares. De esta manera search house puede encontrar el hogar perfecto para usted, de acuerdo a sus gustos, necesidades
-                        y oportunidades. Gracias a nuestros expertos asesores inmobiliarios cualquiera puede ser dueño de su nuevo hogar de una manera fácil y eficaz</p>
+                    <p>Atreves de una base de datos, la cual almacena casas de distintos modelos y precios de las constructoras y vendedores locales, en distintos lugares. <br> De esta manera &copy;Search House puede encontrar el hogar perfecto para ti,
+                        de acuerdo a tu criterios y oportunidades. <br> Gracias a nuestros expertos asesores inmobiliarios, cualquiera puede ser dueño de su nuevo hogar de una manera fácil y eficaz</p>
                 </div>
             </div>
         </section>
@@ -187,6 +219,7 @@
 
 
     </main>
+    <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
